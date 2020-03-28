@@ -1,0 +1,147 @@
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+	color: #FF8724;
+}
+
+body {
+	background-color: rgba(26, 179, 179, 0.4);
+}
+
+.robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #2D59C0;
+}
+
+.head { 
+	margin: 0 auto;
+	width: 200px;  
+	height: 150px; 
+	border-radius: 200px 200px 50px 50px; 
+	margin-bottom: 5px;
+} 
+
+.head:hover {
+	width: 300px;
+    transition: .5s ease-in-out;
+}
+
+.eyes {
+	display: flex;
+}
+
+.left_eye, .right_eye { 
+	width: 25px; 
+	height: 25px; 
+	border-radius: 20px; 
+	background-color: white;  
+} 
+
+.left_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex;
+} 
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 50px 50px 50px 50px; 
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+} 
+
+.right_arm:hover {
+	-webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+}
+
+.left_arm:hover {
+	-webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	margin: 0 auto;
+	display: flex;
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	margin-left: 30px; 
+}
+
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+
+
+
+
+
+
